@@ -7,20 +7,14 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
-
 import androidx.fragment.app.Fragment;
-
 import java.util.Objects;
 
 public class NickTopFrag extends Fragment {
 
-
-
     public NickTopFrag() {
         // Required empty public constructor
     }
-
-
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -42,9 +36,6 @@ public class NickTopFrag extends Fragment {
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-
-
-
                 RafuseBottomFrag fragment = (RafuseBottomFrag) requireActivity().getSupportFragmentManager().findFragmentById(R.id.fragmentContainerView2);
                 Objects.requireNonNull(fragment).display(list[position]);
             }
@@ -53,7 +44,6 @@ public class NickTopFrag extends Fragment {
             public void onNothingSelected(AdapterView<?> parent) {
             }
         });
-
         return view;
     }
 }
