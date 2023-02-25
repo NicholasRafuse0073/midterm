@@ -1,4 +1,5 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Nicholas Rafuse, N01440073, CENG258B-->
     <string name="app_name" tools:ignore="Typos">RafuseMidTerm1</string>
     <string name="nicholas_rafuse">Nicholas Rafuse</string>
     <string name="dog">Dog</string>

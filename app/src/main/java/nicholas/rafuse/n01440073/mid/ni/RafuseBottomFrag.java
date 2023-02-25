@@ -1,5 +1,5 @@
 package nicholas.rafuse.n01440073.mid.ni;
-
+//Nicholas Rafuse, N01440073, CENG-258-0NB
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
