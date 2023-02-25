@@ -9,6 +9,8 @@ import android.widget.Spinner;
 
 import androidx.fragment.app.Fragment;
 
+import java.util.Objects;
+
 public class NickTopFrag extends Fragment {
 
 
@@ -34,6 +36,13 @@ public class NickTopFrag extends Fragment {
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(requireActivity().getApplicationContext(), R.array.list, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(adapter);
+
+        String[] list = getResources().getStringArray(R.array.list);
+
+        spinner.setOnItemClickListener((arg0, arg1, position, arg3) -> {
+            RafuseBottomFrag fragment = (RafuseBottomFrag) requireActivity().getSupportFragmentManager().findFragmentById(R.id.fragmentContainerView2);
+            Objects.requireNonNull(fragment).display(list[position]);
+        });
 
         return view;
     }

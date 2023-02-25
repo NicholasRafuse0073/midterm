@@ -5,6 +5,7 @@
     <string name="nicholas_rafuse_n01440073">Nicholas Rafuse, N01440073</string>
     <string name="top_fragment">Top Fragment</string>
     <string name="bottom_fragment">Bottom Fragment</string>
+    <string name="empty" />
     <string-array name="list">
         <item>Ontario</item>
         <item>Quebec</item>
