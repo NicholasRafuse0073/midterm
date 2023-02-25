@@ -33,7 +33,6 @@ public class NickTopFrag extends Fragment {
         View view = inflater.inflate(R.layout.fragment_nick_top, container, false);
 
         Spinner spinner = view.findViewById(R.id.nicSpinner);
-
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(requireActivity().getApplicationContext(), R.array.list, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(adapter);
@@ -43,6 +42,9 @@ public class NickTopFrag extends Fragment {
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+
+
+
                 RafuseBottomFrag fragment = (RafuseBottomFrag) requireActivity().getSupportFragmentManager().findFragmentById(R.id.fragmentContainerView2);
                 Objects.requireNonNull(fragment).display(list[position]);
             }

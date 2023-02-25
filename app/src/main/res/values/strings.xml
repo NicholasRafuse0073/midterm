@@ -6,7 +6,9 @@
     <string name="top_fragment">Top Fragment</string>
     <string name="bottom_fragment">Bottom Fragment</string>
     <string name="empty" />
+    <string name="select">Select a Country</string>
     <string-array name="list">
+        <item></item>
         <item>Ontario</item>
         <item>Quebec</item>
         <item>Alberta</item>
