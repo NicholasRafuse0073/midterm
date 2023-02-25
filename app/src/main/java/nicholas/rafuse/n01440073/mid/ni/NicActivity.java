@@ -12,9 +12,7 @@ public class NicActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         ImageButton imageButton = findViewById(R.id.nicImage);
-
         imageButton.setOnClickListener(view -> openActivity());
     }
 
