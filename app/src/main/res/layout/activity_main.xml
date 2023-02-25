@@ -5,7 +5,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#A1D3FF"
     tools:context=".NicActivity">
+
 
     <TextView
         android:id="@+id/nic1"
@@ -13,20 +15,23 @@
         android:layout_height="wrap_content"
         android:text="@string/nicholas_rafuse"
         android:textColor="#FF0000"
-        android:textStyle="bold"
         android:textSize="30dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="SpUsage" />
+        tools:ignore="SpUsage,TextContrastCheck" />
 
-    <ImageView
-        android:id="@+id/imageView"
+    <ImageButton
+        android:id="@+id/nicImage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="69dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/dog"
         android:src="@drawable/_576189640389"
-        tools:layout_editor_absoluteX="81dp"
-        tools:layout_editor_absoluteY="397dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
