@@ -8,10 +8,10 @@
     tools:context=".NicActivity">
 
     <TextView
-        android:id=""
+        android:id="@+id/nic1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Nicholas Rafuse"
+        android:text="@string/nicholas_rafuse"
         android:textColor="#FF0000"
         android:textStyle="bold"
         android:textSize="30dp"
@@ -20,5 +20,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="SpUsage" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/_576189640389"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="397dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
