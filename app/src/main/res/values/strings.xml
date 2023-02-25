@@ -3,4 +3,17 @@
     <string name="nicholas_rafuse">Nicholas Rafuse</string>
     <string name="dog">Dog</string>
     <string name="nicholas_rafuse_n01440073">Nicholas Rafuse, N01440073</string>
+    <string name="top_fragment">Top Fragment</string>
+    <string name="bottom_fragment">Bottom Fragment</string>
+    <string-array name="list">
+        <item>Ontario</item>
+        <item>Quebec</item>
+        <item>Alberta</item>
+        <item>Manitoba</item>
+        <item>British Columbia</item>
+        <item>Nova Scotia</item>
+        <item>New Brunswick</item>
+        <item>Newfoundland</item>
+        <item>Prince Edward Island</item>
+    </string-array>
 </resources>

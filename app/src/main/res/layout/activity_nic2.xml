@@ -18,4 +18,27 @@
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView"
+        android:name="nicholas.rafuse.n01440073.mid.ni.NickTopFrag"
+        android:layout_width="400dp"
+        android:layout_height="311dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout="@layout/fragment_nick_top" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView2"
+        android:name="nicholas.rafuse.n01440073.mid.ni.RafuseBottomFrag"
+        android:layout_width="400dp"
+        android:layout_height="356dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="368dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout="@layout/fragment_rafuse_bottom"
+        tools:ignore="VisualLintBounds" />
 </androidx.constraintlayout.widget.ConstraintLayout>
